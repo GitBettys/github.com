@@ -1,0 +1,66 @@
+/*limpiar cascada*/
+html, body{font-family:Comic Sans MS, Helvetica, Cambria; width:100%; height:100%;}
+*{margin:0; padding:0; border:0;}
+@media(min-width:1024px){html{width:100%; display:grid; place-items:center;} body{width:1024px;}}
+#liitem, #barMenuItem{list-style:none;}
+/*Libreria (uso por class)*/
+.verde3{background-color:rgb(18, 92, 41);}
+.verde2{background-color:rgb(19, 138, 39);}
+.verde1{background-color:rgb(206, 252, 208);}
+.verde{background-color:rgb(210, 219, 200);}
+.cafe{background-color:rgb(244, 223, 192);}
+.cafe1{background-color:rgb(235, 187, 149);}
+.cafe2{background-color:rgb(175, 51, 0);}
+.cafe3{background-color:rgb(191, 133, 96);}
+.blanco{background-color:#fff;}
+.black{background-color:#000;}
+
+.ftverde3{color:rgb(18, 92, 41);}
+.ftverde2{color:rgb(19, 138, 39);}
+.ftverde1{color:rgb(206, 252, 208);}
+.ftverde{color:rgb(210, 219, 200);}
+.ftcafe{color:rgb(244, 223, 192);}
+.ftcafe1{color:rgb(235, 187, 149);}
+.ftcafe2{color:rgb(175, 51, 0);}
+.ftcafe3{color:rgb(191, 133, 96);}
+.ftblanco{color:#fff;}
+.ftblack{color:#000;}
+
+.cleara{text-decoration:none;}
+.centerTxt{text-align:center;}
+.border{border-radius:25px;}
+.border5{border-radius:5px;}
+
+
+.padding25bottom{padding-bottom:25px;}
+.padding25top{padding-top:25px;}
+.padding25left{padding-left:25px;}
+.margin5top{margin-top:5px;}
+.margin25top{margin-top:25px;}
+
+.padding40top{padding-top:40px;}
+.padding100bottom{padding-bottom:100px;}
+
+.padding10{padding:10%;}
+.padding5{padding:5%;}
+.padding3{padding:3%;}
+.margin2{margin:2%;}
+.margin5{margin:5%;}
+.margin10{margin:10%;}
+.width{width:100%;}
+.width80{width:80%;}
+.width60{width:60%;}
+.width40{width:40%;}
+.width10{width:10%;}
+
+.hoververde:hover{background-color:rgb(191, 133, 96); color:rgb(19, 138, 39);}
+.hovercafe:hover{background-color:rgb(); color:rgb(175, 51, 0);}
+.rotar{transform: rotate(90deg); padding:5px;}
+.paddingcenter{padding-left:10%; padding-right:10%; padding-top:60px; padding-bottom:50px;}
+.bordebotom{border:1px solid rgb();}
+.grid{display:grid; place-items:center;}
+
+/*footer*//*terminos y autor*/
+#footer{width:100%; display:grid; place-items:center;}
+#footerCenter{width:80%;}
+
